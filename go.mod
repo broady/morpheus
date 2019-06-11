@@ -1,0 +1,9 @@
+module cloud.google.com/go/cloudsql
+
+go 1.12
+
+require (
+	github.com/GoogleCloudPlatform/cloudsql-proxy v0.0.0-20190610223153-dc577855e0bf
+	golang.org/x/net v0.0.0-20190607181551-461777fb6f67 // indirect
+	google.golang.org/api v0.6.0
+)
